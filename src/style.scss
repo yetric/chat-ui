@@ -14,6 +14,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
+header, footer {
+ background: #666;
+}
 
 #chat  {
   height: 100vh;
@@ -30,6 +33,7 @@ body {
 
 #chat main .sidebar {
   width: 200px;
+  background: aliceblue;
 }
 
 #chat main .messaging-ui {
@@ -42,5 +46,6 @@ body {
   .message {
     height: 200px;
     background: #ffc;
+    color: #333333;
   }
 }
